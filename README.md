@@ -70,4 +70,5 @@ This project provides a REST API for fetching weather information for a specific
 
 ---
 
-You can copy this into your `README.md` file, and adjust any specific details as needed!
+## Screenshots
+![Screenshot Description](/Project-images/MySQL%20Workbench%2018-11-2024%2023_47_08.png)
