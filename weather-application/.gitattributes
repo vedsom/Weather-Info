@@ -1,0 +1,28 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.java text
+*.xml text
+*.properties text
+*.md text
+*.yml text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+
+# Binary files should be left untouched
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.jar binary
