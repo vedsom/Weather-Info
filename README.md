@@ -12,6 +12,19 @@ This project provides a REST API for fetching weather information for a specific
 - **Optimized for API Calls**: The system minimizes unnecessary API calls by caching data (latitude, longitude, and weather) in the database, ensuring faster responses for subsequent requests.
 - **Testable via Postman or Swagger**: This API can be tested using Postman or Swagger, with no UI required.
 
+## API Endpoint
+# Method: GET
+
+# Endpoint:
+
+http://localhost:8080/weather?pincode={requested_pincode}&date={requested_date}
+
+Example:
+http://localhost:8080/weather?pincode=411014&date=2020-10-15
+# Date Format: yyyy-MM-dd
+
+
+
 ## Database Schema
 1. **Location Table**: Stores the pincode, latitude, and longitude.
    - Fields: `id`, `pincode`, `latitude`, `longitude`
